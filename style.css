@@ -1,0 +1,387 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.section:hover {
+    background-color: #e0e0e0;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.typewriter-text {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    animation: typing 3s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+.typewriter-text span:nth-child(1) {
+    color: #ff0000; 
+}
+
+.typewriter-text span:nth-child(2) {
+    color: #00ff00; 
+}
+.unordered-list{
+    padding: 1px;
+}
+
+.section {
+    padding: 20px;
+}
+
+.education1-item{
+    display: flex;
+}
+
+.year{
+    flex:0.3;
+}
+
+.institution{
+    flex:0.7;
+}
+
+
+
+.education2-item{
+    display: flex;
+}
+
+.year{
+    flex:0.3;
+}
+
+.institution{
+    flex:0.7
+}
+
+.education3-item{
+    display: flex;
+}
+
+.year{
+    flex:0.3;
+}
+
+.institution{
+    flex:0.7
+}
+
+.year, .institution {
+    flex: 1;
+}
+
+.about{
+    display: flex;
+}
+
+.headings{
+    flex: 0.1;
+}
+
+.description{
+    flex: 1;
+}
+
+.skills {
+ 
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.skill-item {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 40px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 1s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.yellow-section{
+    display:flex;
+}
+
+.yellow{
+    flex:0.2;
+}
+
+#email{
+    flex:1;
+    padding:20px;
+}
+
+.left-side {
+    flex: 0.7;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box; 
+}
+
+.right-side {
+    flex: 2;
+}
+
+.name-title {
+    text-align: left;
+    background-color: yellow;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image {
+    max-width: 100%;
+    height:auto;
+    
+}
+
+.profile-image{
+    vertical-align: top;
+}
+
+.about-me h2, .projects h2, .software-skills h2,.about-me p,.software-skills h6 ,.list{
+    margin-top: 25px;
+    padding-left: 70px;
+}
+
+.name-title h1, .name-title p {
+    margin-bottom: 0; 
+    padding-left: 20px;
+}
+
+
+.name-title {
+    margin-bottom: -2px; 
+}
+
+.top-right{
+    padding-top: 40px;
+}
+
+hr {
+    border-color: yellow;
+}
+
+.right-side hr {
+    width: 75%;
+    border-color: black;
+}
+
+#email ,#phone, #website{
+    background-color: gray;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.contact-details{
+    margin: 0px;
+}
+
+.project-1 {
+    display:flex;
+}
+
+.date-class{
+    flex:0.5;
+    text-align: center;
+}
+
+.project-description {
+    flex:1;
+}
+
+.skill{
+   display: flex;
+}
+
+.left-skill{
+    flex: 0.5;
+    
+}
+
+.right-skill{
+    flex:1;
+}
+
+.left-skill p{
+    text-align: center;
+}
+
+.right-skill p{
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.achievement-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.achievement-item i {
+    font-size: 36px;
+    color: #ffcc00; 
+}
+
+.achievement-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
